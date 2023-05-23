@@ -17,10 +17,7 @@ void kernel_main(int cpuid, int pci_mech1) {
     // noo
 
     clear_screen();
-    /* Don't look here
-    char *secret_message = "I love you mamma. Mmuaa *kiss*\nMamma loves Picuti to the power of infinity\nSwimming taim!\npoopy time\npaglu time";
-    kprint_at(secret_message, 0, 0);
-    */
+
     isr_install();
     irq_install();
 
